@@ -83,3 +83,48 @@ h1 {
 .header > p {
     color: #F9FAF8;
 }
+
+/* section cards */
+
+.sectionCards {
+    height: 400px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.titleCards {
+    display: flex;
+    justify-content: center;
+}
+
+.divCards {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.cards {
+    border: #3882F6 solid 4px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.divTextCards {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 48px;
+}
+
+.textCards {
+    text-align: center;
+    color: #1F2937;
+    margin-top: 5px;
+}
