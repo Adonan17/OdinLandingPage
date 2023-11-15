@@ -103,7 +103,8 @@ h2 {
 
 .divCards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:50px;
     margin-left: 48px;
     margin-right: 48px;
 }
@@ -117,14 +118,45 @@ h2 {
 
 .divTextCards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
     margin-left: 48px;
     margin-right: 48px;
     margin-bottom: 48px;
 }
 
 .textCards {
+    width: 157.27px;
     text-align: center;
     color: #1F2937;
     margin-top: 5px;
 }
+
+/* section quote */
+
+.sectionQuote {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sectionQuote > div {
+    display: flex;
+    justify-content: right;
+}
+
+/* call to action section */
+
+/* footer */
